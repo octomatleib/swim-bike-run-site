@@ -42,11 +42,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add docs/
-        git diff --staged --quiet || git commit -m "Update dashboard data $(date '+%Y-%m-%d %H:%M:%S')"
-        git push
-        
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./docs
+        if ! git diff --staged --quiet; then
+          git commit -m "Update dashboard data $(date '+%Y-%m-%d %H:%M:%S')"
+          git push origin main
+        fi
