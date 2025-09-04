@@ -1,15 +1,22 @@
-# Folders
-build
-config
-data
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
 
-# Jupyter Notebook
-.ipynb_checkpoints
+# Data files (keep private)
+data/
 
-# IPython
-profile_default/
-ipython_config.py
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Environments
-.venv
-.env
+# OS
+.DS_Store
+Thumbs.db
