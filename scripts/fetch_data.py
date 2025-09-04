@@ -18,9 +18,10 @@ def connect_to_garmin():
         raise ValueError("GARMIN_EMAIL and GARMIN_PASSWORD must be set")
     
     try:
-        # Try to load existing session
-        client = Garmin()
-        client.login(email, password)
+        # Current garminconnect API - pass credentials to constructor
+        client = Garmin(email, password)
+        # Call login() without parameters
+        client.login()
         logger.info("Successfully connected to Garmin Connect")
         return client
     except Exception as e:
@@ -39,22 +40,42 @@ def fetch_activities(client, days_back=365):
         activities_list = client.get_activities(0, 100)  # Adjust limit as needed
         
         for activity in activities_list:
-            activity_date = datetime.fromisoformat(activity['startTimeLocal'].replace('Z', '+00:00'))
+            # Parse start time
+            start_time_str = activity.get('startTimeLocal') or activity.get('startTimeGMT')
+            if not start_time_str:
+                continue
+                
+            # Handle different date formats
+            try:
+                if start_time_str.endswith('Z'):
+                    activity_date = datetime.fromisoformat(start_time_str.replace('Z', '+00:00'))
+                else:
+                    activity_date = datetime.fromisoformat(start_time_str)
+            except:
+                logger.warning(f"Could not parse date: {start_time_str}")
+                continue
+            
+            # Get activity type
+            activity_type_key = activity.get('activityType', {}).get('typeKey', '').lower()
             
             # Filter by date and activity types
             if (activity_date >= start_date and 
-                activity['activityType']['typeKey'] in ['running', 'cycling', 'lap_swimming', 'open_water_swimming']):
+                activity_type_key in ['running', 'cycling', 'lap_swimming', 'open_water_swimming']):
                 
-                # Get detailed activity data
+                # Get detailed activity data (optional - might fail for some activities)
                 activity_id = activity['activityId']
-                detailed_activity = client.get_activity(activity_id)
+                detailed_activity = {}
+                try:
+                    detailed_activity = client.get_activity(activity_id)
+                except Exception as e:
+                    logger.warning(f"Could not get detailed data for activity {activity_id}: {e}")
                 
-                # Extract relevant data
+                # Extract relevant data with safe gets
                 activity_data = {
                     'id': activity_id,
                     'date': activity_date.isoformat(),
-                    'type': activity['activityType']['typeKey'],
-                    'name': activity.get('activityName', ''),
+                    'type': activity_type_key,
+                    'name': activity.get('activityName', f"{activity_type_key.title()} Activity"),
                     'distance': activity.get('distance', 0),  # in meters
                     'duration': activity.get('duration', 0),  # in seconds
                     'calories': activity.get('calories', 0),
@@ -68,7 +89,7 @@ def fetch_activities(client, days_back=365):
                 }
                 
                 activities.append(activity_data)
-                logger.info(f"Fetched activity: {activity_data['name']} ({activity_data['type']})")
+                logger.info(f"Fetched activity: {activity_data['name']} ({activity_data['type']}) - {activity_data['distance']/1000:.1f}km")
         
         return activities
         
