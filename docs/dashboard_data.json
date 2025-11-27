@@ -1,18 +1,18 @@
 {
-  "generated_at": "2025-11-26T06:28:07.688355",
+  "generated_at": "2025-11-27T06:28:20.503405",
   "summary": {
     "total_activities": 100,
-    "total_distance_km": 1122.5572011718748,
-    "total_duration_hours": 80.218195054796,
-    "total_calories": 54362.0,
+    "total_distance_km": 1123.698150878906,
+    "total_duration_hours": 80.16117648654512,
+    "total_calories": 54388.0,
     "by_type": {
       "running": {
         "count": 58,
-        "total_distance_km": 427.40728027343755,
-        "avg_distance_km": 7.369091039197199,
-        "total_duration_hours": 45.573740030924476,
-        "avg_duration_hours": 0.7857541384642152,
-        "total_calories": 34015.0
+        "total_distance_km": 428.5482299804688,
+        "avg_distance_km": 7.388762585870152,
+        "total_duration_hours": 45.51672146267361,
+        "avg_duration_hours": 0.7847710597012691,
+        "total_calories": 34041.0
       },
       "cycling": {
         "count": 36,
@@ -35,12 +35,12 @@
   "monthly_trends": [
     {
       "month": "2024-12",
-      "total_activities": 3,
-      "total_distance_km": 22.30910986328125,
+      "total_activities": 2,
+      "total_distance_km": 14.8149296875,
       "by_type": {
         "running": {
-          "count": 3,
-          "distance_km": 22.30910986328125
+          "count": 2,
+          "distance_km": 14.8149296875
         }
       }
     },
@@ -196,12 +196,12 @@
     },
     {
       "month": "2025-11",
-      "total_activities": 4,
-      "total_distance_km": 29.57808984375,
+      "total_activities": 5,
+      "total_distance_km": 38.2132197265625,
       "by_type": {
         "running": {
-          "count": 4,
-          "distance_km": 29.57808984375
+          "count": 5,
+          "distance_km": 38.2132197265625
         }
       }
     }
@@ -311,14 +311,22 @@
     {
       "week": "2025-11-17/2025-11-23",
       "week_start": "2025-11-17T00:00:00",
-      "total_distance_km": 5.3627998046875,
-      "activities": 1,
+      "total_distance_km": 13.9979296875,
+      "activities": 2,
       "by_type": {
-        "running": 5.3627998046875
+        "running": 13.9979296875
       }
     }
   ],
   "recent_activities": [
+    {
+      "date": "2025-11-23",
+      "name": "Wellendingen Laufen",
+      "type": "running",
+      "distance_km": 8.64,
+      "duration_minutes": 51.0,
+      "calories": 710
+    },
     {
       "date": "2025-11-17",
       "name": "Wellendingen Laufen",
@@ -390,14 +398,6 @@
       "distance_km": 7.4,
       "duration_minutes": 46.9,
       "calories": 621
-    },
-    {
-      "date": "2025-10-07",
-      "name": "Wellendingen Laufen",
-      "type": "running",
-      "distance_km": 6.42,
-      "duration_minutes": 36.6,
-      "calories": 481
     }
   ]
 }
