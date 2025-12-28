@@ -1,18 +1,18 @@
 {
-  "generated_at": "2025-12-27T06:27:52.588230",
+  "generated_at": "2025-12-28T06:28:09.284049",
   "summary": {
     "total_activities": 100,
-    "total_distance_km": 1106.550421875,
-    "total_duration_hours": 77.8559373304579,
-    "total_calories": 52736.0,
+    "total_distance_km": 1098.146521850586,
+    "total_duration_hours": 76.64294931199817,
+    "total_calories": 51914.0,
     "by_type": {
       "running": {
-        "count": 58,
-        "total_distance_km": 411.4005009765625,
-        "avg_distance_km": 7.093112085802802,
-        "total_duration_hours": 43.21148230658637,
-        "avg_duration_hours": 0.7450255570101099,
-        "total_calories": 32389.0
+        "count": 59,
+        "total_distance_km": 403.9966009521484,
+        "avg_distance_km": 6.847400016138109,
+        "total_duration_hours": 42.4323070526123,
+        "avg_duration_hours": 0.7191916449595306,
+        "total_calories": 31787.0
       },
       "cycling": {
         "count": 36,
@@ -23,28 +23,28 @@
         "total_calories": 18906.0
       },
       "lap_swimming": {
-        "count": 6,
-        "total_distance_km": 6.4,
-        "avg_distance_km": 1.0666666666666667,
-        "total_duration_hours": 2.6496080525716144,
-        "avg_duration_hours": 0.4416013420952691,
-        "total_calories": 1441.0
+        "count": 5,
+        "total_distance_km": 5.4,
+        "avg_distance_km": 1.08,
+        "total_duration_hours": 2.2157952880859373,
+        "avg_duration_hours": 0.44315905761718744,
+        "total_calories": 1221.0
       }
     }
   },
   "monthly_trends": [
     {
       "month": "2025-01",
-      "total_activities": 7,
-      "total_distance_km": 40.4591103515625,
+      "total_activities": 3,
+      "total_distance_km": 16.306580078125002,
       "by_type": {
         "lap_swimming": {
-          "count": 2,
-          "distance_km": 2.0
+          "count": 1,
+          "distance_km": 1.0
         },
         "running": {
-          "count": 5,
-          "distance_km": 38.4591103515625
+          "count": 2,
+          "distance_km": 15.306580078125
         }
       }
     },
@@ -196,26 +196,17 @@
     },
     {
       "month": "2025-12",
-      "total_activities": 5,
-      "total_distance_km": 24.689649902343746,
+      "total_activities": 9,
+      "total_distance_km": 40.43828015136718,
       "by_type": {
         "running": {
-          "count": 5,
-          "distance_km": 24.689649902343746
+          "count": 9,
+          "distance_km": 40.43828015136718
         }
       }
     }
   ],
   "weekly_trends": [
-    {
-      "week": "2025-09-22/2025-09-28",
-      "week_start": "2025-09-22T00:00:00",
-      "total_distance_km": 11.11764990234375,
-      "activities": 2,
-      "by_type": {
-        "running": 11.11764990234375
-      }
-    },
     {
       "week": "2025-10-06/2025-10-12",
       "week_start": "2025-10-06T00:00:00",
@@ -309,14 +300,55 @@
     {
       "week": "2025-12-15/2025-12-21",
       "week_start": "2025-12-15T00:00:00",
-      "total_distance_km": 7.56981005859375,
-      "activities": 1,
+      "total_distance_km": 13.969630249023439,
+      "activities": 3,
       "by_type": {
-        "running": 7.56981005859375
+        "running": 13.969630249023439
+      }
+    },
+    {
+      "week": "2025-12-22/2025-12-28",
+      "week_start": "2025-12-22T00:00:00",
+      "total_distance_km": 9.348810058593749,
+      "activities": 2,
+      "by_type": {
+        "running": 9.348810058593749
       }
     }
   ],
   "recent_activities": [
+    {
+      "date": "2025-12-26",
+      "name": "Cuernavaca Laufen",
+      "type": "running",
+      "distance_km": 5.62,
+      "duration_minutes": 35.9,
+      "calories": 446
+    },
+    {
+      "date": "2025-12-24",
+      "name": "Cuernavaca Laufen",
+      "type": "running",
+      "distance_km": 3.73,
+      "duration_minutes": 23.6,
+      "calories": 306
+    },
+    {
+      "date": "2025-12-21",
+      "name": "Acapulco de Ju\u00e1rez Laufen",
+      "type": "running",
+      "distance_km": 5.14,
+      "duration_minutes": 31.7,
+      "calories": 361
+    },
+    {
+      "date": "2025-12-21",
+      "name": "Acapulco de Ju\u00e1rez Laufen",
+      "type": "running",
+      "distance_km": 1.26,
+      "duration_minutes": 8.3,
+      "calories": 86
+    },
     {
       "date": "2025-12-16",
       "name": "Acapulco de Ju\u00e1rez Laufen",
@@ -364,38 +396,6 @@
       "distance_km": 7.73,
       "duration_minutes": 42.1,
       "calories": 557
-    },
-    {
-      "date": "2025-11-23",
-      "name": "Wellendingen Laufen",
-      "type": "running",
-      "distance_km": 8.64,
-      "duration_minutes": 51.0,
-      "calories": 710
-    },
-    {
-      "date": "2025-11-17",
-      "name": "Wellendingen Laufen",
-      "type": "running",
-      "distance_km": 5.36,
-      "duration_minutes": 30.3,
-      "calories": 374
-    },
-    {
-      "date": "2025-11-16",
-      "name": "Wellendingen Laufen",
-      "type": "running",
-      "distance_km": 7.76,
-      "duration_minutes": 43.8,
-      "calories": 663
-    },
-    {
-      "date": "2025-11-11",
-      "name": "Wellendingen Laufen",
-      "type": "running",
-      "distance_km": 7.31,
-      "duration_minutes": 54.5,
-      "calories": 541
     }
   ]
 }
