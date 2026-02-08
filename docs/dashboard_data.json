@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-02-07T06:39:00.069737",
+  "generated_at": "2026-02-08T06:45:49.414834",
   "summary": {
     "total_activities": 100,
-    "total_distance_km": 1101.5011517333983,
-    "total_duration_hours": 76.44327896965873,
-    "total_calories": 51963.0,
+    "total_distance_km": 1100.4355013427735,
+    "total_duration_hours": 76.30976097106934,
+    "total_calories": 51899.0,
     "by_type": {
       "running": {
         "count": 60,
-        "total_distance_km": 408.3512308349609,
-        "avg_distance_km": 6.805853847249349,
-        "total_duration_hours": 42.61497476365831,
-        "avg_duration_hours": 0.7102495793943052,
-        "total_calories": 32056.0
+        "total_distance_km": 407.28558044433595,
+        "avg_distance_km": 6.788093007405599,
+        "total_duration_hours": 42.4814567650689,
+        "avg_duration_hours": 0.708024279417815,
+        "total_calories": 31992.0
       },
       "cycling": {
         "count": 36,
@@ -35,12 +35,12 @@
   "monthly_trends": [
     {
       "month": "2025-02",
-      "total_activities": 4,
-      "total_distance_km": 30.84883056640625,
+      "total_activities": 3,
+      "total_distance_km": 21.51197021484375,
       "by_type": {
         "running": {
-          "count": 4,
-          "distance_km": 30.84883056640625
+          "count": 3,
+          "distance_km": 21.51197021484375
         }
       }
     },
@@ -203,12 +203,12 @@
     },
     {
       "month": "2026-02",
-      "total_activities": 2,
-      "total_distance_km": 13.934340332031251,
+      "total_activities": 3,
+      "total_distance_km": 22.20555029296875,
       "by_type": {
         "running": {
-          "count": 2,
-          "distance_km": 13.934340332031251
+          "count": 3,
+          "distance_km": 22.20555029296875
         }
       }
     }
@@ -316,14 +316,22 @@
     {
       "week": "2026-02-02/2026-02-08",
       "week_start": "2026-02-02T00:00:00",
-      "total_distance_km": 7.517240234375,
-      "activities": 1,
+      "total_distance_km": 15.7884501953125,
+      "activities": 2,
       "by_type": {
-        "running": 7.517240234375
+        "running": 15.7884501953125
       }
     }
   ],
   "recent_activities": [
+    {
+      "date": "2026-02-07",
+      "name": "Wellendingen Laufen",
+      "type": "running",
+      "distance_km": 8.27,
+      "duration_minutes": 51.7,
+      "calories": 655
+    },
     {
       "date": "2026-02-05",
       "name": "Wellendingen Laufen",
@@ -395,14 +403,6 @@
       "distance_km": 3.75,
       "duration_minutes": 21.4,
       "calories": 266
-    },
-    {
-      "date": "2025-12-26",
-      "name": "Cuernavaca Laufen",
-      "type": "running",
-      "distance_km": 5.62,
-      "duration_minutes": 35.9,
-      "calories": 446
     }
   ]
 }
