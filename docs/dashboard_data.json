@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-05-09T07:53:07.342267",
+  "generated_at": "2026-05-10T08:05:02.752056",
   "summary": {
-    "total_activities": 95,
-    "total_distance_km": 1003.736699584961,
-    "total_duration_hours": 71.14690689934623,
-    "total_calories": 48478.0,
+    "total_activities": 93,
+    "total_distance_km": 976.0300594482422,
+    "total_duration_hours": 69.30874690585665,
+    "total_calories": 47283.0,
     "by_type": {
       "cycling": {
-        "count": 33,
-        "total_distance_km": 614.9198193359375,
-        "avg_distance_km": 18.633933919270834,
-        "total_duration_hours": 29.217745937771262,
-        "avg_duration_hours": 0.8853862405385231,
-        "total_calories": 16948.0
+        "count": 32,
+        "total_distance_km": 594.6334892578125,
+        "avg_distance_km": 18.58229653930664,
+        "total_duration_hours": 28.147146504720048,
+        "avg_duration_hours": 0.8795983282725015,
+        "total_calories": 16333.0
       },
       "running": {
-        "count": 57,
-        "total_distance_km": 383.5168802490235,
-        "avg_distance_km": 6.728366320158306,
-        "total_duration_hours": 39.90100290086535,
-        "avg_duration_hours": 0.7000175947520237,
-        "total_calories": 30302.0
+        "count": 56,
+        "total_distance_km": 376.0965701904297,
+        "avg_distance_km": 6.716010181971959,
+        "total_duration_hours": 39.13344234042698,
+        "avg_duration_hours": 0.6988114703647675,
+        "total_calories": 29722.0
       },
       "lap_swimming": {
         "count": 5,
@@ -35,16 +35,16 @@
   "monthly_trends": [
     {
       "month": "2025-05",
-      "total_activities": 11,
-      "total_distance_km": 180.13206982421872,
+      "total_activities": 9,
+      "total_distance_km": 152.42542968749999,
       "by_type": {
         "cycling": {
-          "count": 8,
-          "distance_km": 156.438189453125
+          "count": 7,
+          "distance_km": 136.151859375
         },
         "running": {
-          "count": 3,
-          "distance_km": 23.693880371093748
+          "count": 2,
+          "distance_km": 16.2735703125
         }
       }
     },
