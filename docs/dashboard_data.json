@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-05-30T08:25:01.994193",
+  "generated_at": "2026-05-31T08:41:54.726890",
   "summary": {
-    "total_activities": 90,
-    "total_distance_km": 914.3901903076172,
-    "total_duration_hours": 65.61525081210667,
-    "total_calories": 44438.0,
+    "total_activities": 88,
+    "total_distance_km": 878.3577606201172,
+    "total_duration_hours": 63.68572966681586,
+    "total_calories": 43297.0,
     "by_type": {
       "cycling": {
-        "count": 30,
-        "total_distance_km": 543.053640625,
-        "avg_distance_km": 18.101788020833332,
-        "total_duration_hours": 25.604899325900604,
-        "avg_duration_hours": 0.8534966441966868,
-        "total_calories": 14368.0
+        "count": 28,
+        "total_distance_km": 507.0212109375,
+        "avg_distance_km": 18.107900390624998,
+        "total_duration_hours": 23.675378180609805,
+        "avg_duration_hours": 0.8455492207360644,
+        "total_calories": 13227.0
       },
       "running": {
         "count": 55,
@@ -33,17 +33,6 @@
     }
   },
   "monthly_trends": [
-    {
-      "month": "2025-05",
-      "total_activities": 2,
-      "total_distance_km": 36.0324296875,
-      "by_type": {
-        "cycling": {
-          "count": 2,
-          "distance_km": 36.0324296875
-        }
-      }
-    },
     {
       "month": "2025-06",
       "total_activities": 8,
