@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-06-26T08:58:58.402064",
+  "generated_at": "2026-06-27T08:32:32.164517",
   "summary": {
-    "total_activities": 88,
-    "total_distance_km": 916.2422708740235,
-    "total_duration_hours": 63.472657157050236,
-    "total_calories": 43083.0,
+    "total_activities": 89,
+    "total_distance_km": 943.1748704833984,
+    "total_duration_hours": 64.67306460062663,
+    "total_calories": 43724.0,
     "by_type": {
       "cycling": {
-        "count": 31,
-        "total_distance_km": 559.8230107421875,
-        "avg_distance_km": 18.05880679813508,
-        "total_duration_hours": 25.307327372233072,
-        "avg_duration_hours": 0.8163653991042926,
-        "total_calories": 14351.0
+        "count": 32,
+        "total_distance_km": 586.7556103515624,
+        "avg_distance_km": 18.336112823486324,
+        "total_duration_hours": 26.507734815809464,
+        "avg_duration_hours": 0.8283667129940457,
+        "total_calories": 14992.0
       },
       "running": {
         "count": 53,
@@ -203,12 +203,12 @@
     },
     {
       "month": "2026-06",
-      "total_activities": 7,
-      "total_distance_km": 119.7417607421875,
+      "total_activities": 8,
+      "total_distance_km": 146.6743603515625,
       "by_type": {
         "cycling": {
-          "count": 7,
-          "distance_km": 119.7417607421875
+          "count": 8,
+          "distance_km": 146.6743603515625
         }
       }
     }
@@ -318,14 +318,22 @@
     {
       "week": "2026-06-22/2026-06-28",
       "week_start": "2026-06-22T00:00:00",
-      "total_distance_km": 28.69848046875,
-      "activities": 2,
+      "total_distance_km": 55.631080078125,
+      "activities": 3,
       "by_type": {
-        "cycling": 28.69848046875
+        "cycling": 55.631080078125
       }
     }
   ],
   "recent_activities": [
+    {
+      "date": "2026-06-24",
+      "name": "Singen (Hohentwiel) Radfahren",
+      "type": "cycling",
+      "distance_km": 26.93,
+      "duration_minutes": 72.0,
+      "calories": 641
+    },
     {
       "date": "2026-06-24",
       "name": "Wellendingen Radfahren",
@@ -397,14 +405,6 @@
       "distance_km": 13.58,
       "duration_minutes": 42.1,
       "calories": 251
-    },
-    {
-      "date": "2026-05-18",
-      "name": "Wellendingen Laufen",
-      "type": "running",
-      "distance_km": 6.21,
-      "duration_minutes": 35.7,
-      "calories": 486
     }
   ]
 }
