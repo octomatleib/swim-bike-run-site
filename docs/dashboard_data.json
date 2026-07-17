@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-16T08:07:53.427091",
+  "generated_at": "2026-07-17T08:04:52.865687",
   "summary": {
-    "total_activities": 82,
-    "total_distance_km": 852.8641917724608,
-    "total_duration_hours": 59.31325513203939,
-    "total_calories": 40049.0,
+    "total_activities": 80,
+    "total_distance_km": 830.7506722412109,
+    "total_duration_hours": 57.935385394626195,
+    "total_calories": 39285.0,
     "by_type": {
       "cycling": {
-        "count": 28,
-        "total_distance_km": 520.1307216796876,
-        "avg_distance_km": 18.576097202845983,
-        "total_duration_hours": 23.720439792209206,
-        "avg_duration_hours": 0.8471585640074716,
-        "total_calories": 13139.0
+        "count": 27,
+        "total_distance_km": 499.26720214843755,
+        "avg_distance_km": 18.491377857349537,
+        "total_duration_hours": 22.79238728841146,
+        "avg_duration_hours": 0.8441624921633875,
+        "total_calories": 12667.0
       },
       "running": {
         "count": 50,
@@ -23,32 +23,32 @@
         "total_calories": 25906.0
       },
       "lap_swimming": {
-        "count": 4,
-        "total_distance_km": 4.300000000000001,
-        "avg_distance_km": 1.0750000000000002,
-        "total_duration_hours": 1.6096719360351561,
-        "avg_duration_hours": 0.40241798400878903,
-        "total_calories": 1004.0
+        "count": 3,
+        "total_distance_km": 3.0500000000000003,
+        "avg_distance_km": 1.0166666666666668,
+        "total_duration_hours": 1.1598547024197048,
+        "avg_duration_hours": 0.3866182341399016,
+        "total_calories": 712.0
       }
     }
   },
   "monthly_trends": [
     {
       "month": "2025-07",
-      "total_activities": 7,
-      "total_distance_km": 98.01067968750002,
+      "total_activities": 5,
+      "total_distance_km": 75.89716015625001,
       "by_type": {
         "cycling": {
-          "count": 4,
-          "distance_km": 86.263330078125
+          "count": 3,
+          "distance_km": 65.39981054687499
         },
         "running": {
           "count": 1,
           "distance_km": 9.397349609375
         },
         "lap_swimming": {
-          "count": 2,
-          "distance_km": 2.35
+          "count": 1,
+          "distance_km": 1.1
         }
       }
     },
