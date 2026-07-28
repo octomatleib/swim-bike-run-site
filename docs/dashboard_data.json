@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-27T09:45:07.093735",
+  "generated_at": "2026-07-28T08:28:47.419674",
   "summary": {
-    "total_activities": 80,
-    "total_distance_km": 819.5789320068359,
-    "total_duration_hours": 57.00282981872559,
-    "total_calories": 38830.0,
+    "total_activities": 81,
+    "total_distance_km": 843.760361694336,
+    "total_duration_hours": 58.00440425448948,
+    "total_calories": 39896.0,
     "by_type": {
       "cycling": {
-        "count": 27,
-        "total_distance_km": 481.50396191406253,
-        "avg_distance_km": 17.833480070891206,
-        "total_duration_hours": 21.673484497070316,
-        "avg_duration_hours": 0.8027216480396413,
-        "total_calories": 11900.0
+        "count": 28,
+        "total_distance_km": 505.6853916015625,
+        "avg_distance_km": 18.06019255719866,
+        "total_duration_hours": 22.6750589328342,
+        "avg_duration_hours": 0.8098235333155072,
+        "total_calories": 12966.0
       },
       "running": {
         "count": 51,
@@ -199,12 +199,12 @@
     },
     {
       "month": "2026-07",
-      "total_activities": 3,
-      "total_distance_km": 29.604009765625,
+      "total_activities": 4,
+      "total_distance_km": 53.785439453125,
       "by_type": {
         "cycling": {
-          "count": 2,
-          "distance_km": 21.912509765625
+          "count": 3,
+          "distance_km": 46.093939453125
         },
         "running": {
           "count": 1,
@@ -214,15 +214,6 @@
     }
   ],
   "weekly_trends": [
-    {
-      "week": "2026-04-06/2026-04-12",
-      "week_start": "2026-04-06T00:00:00",
-      "total_distance_km": 19.192619140625,
-      "activities": 1,
-      "by_type": {
-        "cycling": 19.192619140625
-      }
-    },
     {
       "week": "2026-04-13/2026-04-19",
       "week_start": "2026-04-13T00:00:00",
@@ -324,9 +315,26 @@
         "cycling": 16.910419921875,
         "running": 7.6915
       }
+    },
+    {
+      "week": "2026-07-27/2026-08-02",
+      "week_start": "2026-07-27T00:00:00",
+      "total_distance_km": 24.1814296875,
+      "activities": 1,
+      "by_type": {
+        "cycling": 24.1814296875
+      }
     }
   ],
   "recent_activities": [
+    {
+      "date": "2026-07-27",
+      "name": "Wellendingen Radfahren",
+      "type": "cycling",
+      "distance_km": 24.18,
+      "duration_minutes": 60.1,
+      "calories": 1066
+    },
     {
       "date": "2026-07-21",
       "name": "Wellendingen Radfahren",
@@ -398,14 +406,6 @@
       "distance_km": 15.84,
       "duration_minutes": 51.0,
       "calories": 445
-    },
-    {
-      "date": "2026-06-03",
-      "name": "Rottweil Radfahren",
-      "type": "cycling",
-      "distance_km": 12.14,
-      "duration_minutes": 28.2,
-      "calories": 535
     }
   ]
 }
