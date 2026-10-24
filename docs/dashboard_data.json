@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-23T10:58:50.253795",
+  "generated_at": "2026-10-24T10:15:19.017895",
   "summary": {
-    "total_activities": 77,
-    "total_distance_km": 858.6643231201173,
-    "total_duration_hours": 55.80110411749947,
-    "total_calories": 37803.0,
+    "total_activities": 78,
+    "total_distance_km": 866.3631229248047,
+    "total_duration_hours": 56.526256637573255,
+    "total_calories": 38376.0,
     "by_type": {
       "running": {
-        "count": 46,
-        "total_distance_km": 300.83113073730465,
-        "avg_distance_km": 6.539807189941405,
-        "total_duration_hours": 30.751978785196936,
-        "avg_duration_hours": 0.6685212779390638,
-        "total_calories": 23426.0
+        "count": 47,
+        "total_distance_km": 308.5299305419922,
+        "avg_distance_km": 6.5644666072764295,
+        "total_duration_hours": 31.47713130527072,
+        "avg_duration_hours": 0.6697261979844834,
+        "total_calories": 23999.0
       },
       "cycling": {
         "count": 30,
@@ -195,12 +195,12 @@
     },
     {
       "month": "2026-10",
-      "total_activities": 3,
-      "total_distance_km": 25.94298974609375,
+      "total_activities": 4,
+      "total_distance_km": 33.641789550781255,
       "by_type": {
         "running": {
-          "count": 2,
-          "distance_km": 13.63393017578125
+          "count": 3,
+          "distance_km": 21.33272998046875
         },
         "cycling": {
           "count": 1,
@@ -316,14 +316,22 @@
     {
       "week": "2026-10-19/2026-10-25",
       "week_start": "2026-10-19T00:00:00",
-      "total_distance_km": 7.774580078125,
-      "activities": 1,
+      "total_distance_km": 15.4733798828125,
+      "activities": 2,
       "by_type": {
-        "running": 7.774580078125
+        "running": 15.4733798828125
       }
     }
   ],
   "recent_activities": [
+    {
+      "date": "2026-10-23",
+      "name": "Wellendingen Laufen",
+      "type": "running",
+      "distance_km": 7.7,
+      "duration_minutes": 43.5,
+      "calories": 573
+    },
     {
       "date": "2026-10-19",
       "name": "Wellendingen Laufen",
@@ -395,14 +403,6 @@
       "distance_km": 17.17,
       "duration_minutes": 53.1,
       "calories": 489
-    },
-    {
-      "date": "2026-08-27",
-      "name": "Wellendingen Radfahren",
-      "type": "cycling",
-      "distance_km": 25.5,
-      "duration_minutes": 58.8,
-      "calories": 509
     }
   ]
 }
